@@ -332,3 +332,5 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+budies-backend/budies-backend/appsettings.json
+budies-backend/budies-backend/appsettings.Development.json
