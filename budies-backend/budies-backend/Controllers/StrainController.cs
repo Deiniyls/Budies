@@ -20,9 +20,10 @@ namespace budies_backend.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Strains>> GetStrains()
+        public async Task<string> GetStrains()
         {
-            return await _strainService.Get();
+            return "hui";
+            //return await _strainService.Get();
         }
 
         [HttpGet("{id}")]
