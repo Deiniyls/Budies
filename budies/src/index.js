@@ -3,13 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Components/App/App';
 import reportWebVitals from './reportWebVitals';
-import {
-  RecoilRoot,
-  atom,
-  selector,
-  useRecoilState,
-  useRecoilValue,
-} from 'recoil';
+import { BrowserRouter } from 'react-router-dom'
+import { RecoilRoot } from 'recoil';
 
 ReactDOM.render(
   <React.StrictMode>

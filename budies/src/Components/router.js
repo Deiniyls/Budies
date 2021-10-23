@@ -14,7 +14,7 @@ const Routes = () => {
     return (
         <main>
             <Switch>
-                <Route path='/' component={() => Components.ExampleComponent()} />
+                <Route exact path='/' component={() => Components.ExampleComponent()} />
 
                 <Route exact path='/another' component={() =>
                     <div>
